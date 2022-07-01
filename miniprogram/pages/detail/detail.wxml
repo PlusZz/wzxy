@@ -1,2 +1,32 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="container">
+    <view class="up">
+        <image src="../../img/tx1.jpg" style="position: absolute; margin: 13px; width: 40px; height: 40px; border-radius: 100%; overflow: hidden;"></image>
+        <view style="width: 90%;margin: 10px 19px; padding-bottom: 20px; border-bottom: solid 1px #F7F7F9;">
+            
+            <text style="font-weight: bold; margin: 0  85px 0 50px;">张嘉政(20202204183) </text><text> 事假</text>
+            <text style="font-size: 15px; margin-left:50px">信息工程与自动化学院 2020计软班</text> 
+        </view>
+        <view style="display: flex; flex-direction:column; width: 90%;margin: 10px 19px;">
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">请 假 状 态: 假期中</text>
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">开 始 时 间: 2022-07-01 10:34</text> 
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">结 束 时 间: 2022-07-01 19:34</text> 
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">是 否 离 校: 是</text> 
+            <text style="padding: 5px 0;">销 假 地 点:  呈贡校区</text> 
+            <text style="padding: 5px 0;">紧 急 联 系 电 话:  13482958374</text> 
+            <text style="padding: 5px 0;">请 假 事 由:  忘情山水</text> 
+        </view>
+    </view>
+
+    <view class="down">
+        <image src="../../img/tx2.jpg" style="position: absolute; margin: 25px 20px ; width: 40px; height: 40px;"></image>
+        <view style="width: 90%;margin: 10px 19px; padding: 10px 0 20px 0;">         
+            <text style="font-weight: bold; margin: 0 10px 0 50px;">缪详华</text><text style="font-size:15px;" decode> (辅导员) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 07.01 08:24</text>
+            <text style="font-size: 15px; margin-left:50px">审批通过</text> 
+        </view>
+    </view>
+
+    <view style="position: absolute; margin-top: 675px;">
+        <image src="../../img/bottom.jpg" style="width: 400px; height: 80px;"></image>
+    </view>
+</view>

@@ -1,1 +1,25 @@
 /* pages/detail/detail.wxss */
+
+.container {
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0 210px 0;
+    background-color: #F7F7F9;
+}
+
+.up{
+   background-color: white; 
+   width: 93%;
+   height: 360px;
+   border-radius: 20px;
+}
+
+.down{
+    background-color: white; 
+    width: 93%;
+    margin-top: 12px;
+    height: 100px;
+    border-radius: 20px;
+ }
