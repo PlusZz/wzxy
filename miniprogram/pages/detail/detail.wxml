@@ -4,7 +4,7 @@
         <image src="../../img/tx1.jpg" style="position: absolute; margin: 13px; width: 40px; height: 40px; border-radius: 100%; overflow: hidden;"></image>
         <view style="width: 90%;margin: 10px 19px; padding-bottom: 20px; border-bottom: solid 1px #F7F7F9;">
             
-            <text style="font-weight: bold; margin: 0  85px 0 50px;">张嘉政(20202204183) </text><text> 事假</text>
+            <text style="font-weight: bold; margin: 0  85px 0 50px;">【姓名 学号】 </text><text> 事假</text>
             <text style="font-size: 15px; margin-left:50px">信息工程与自动化学院 2020计软班</text> 
         </view>
         <view style="display: flex; flex-direction:column; width: 90%;margin: 10px 19px;">
