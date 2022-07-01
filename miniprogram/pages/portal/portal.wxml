@@ -1,0 +1,2 @@
+<!--pages/portal/portal.wxml-->
+<button style="background-color: lightblue; color: white;" bindtap="fake">假假条</button>

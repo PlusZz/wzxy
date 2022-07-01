@@ -7,9 +7,9 @@ export const formatTime = (date: Date) => {
   const second = date.getSeconds()
 
   return (
-    [year, month, day].map(formatNumber).join('/') +
+    [year, month, day].map(formatNumber).join('-') +
     ' ' +
-    [hour, minute, second].map(formatNumber).join(':')
+    [hour, minute].map(formatNumber).join(':')
   )
 }
 

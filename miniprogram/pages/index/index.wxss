@@ -1,19 +1,65 @@
 /**index.wxss**/
-.userinfo {
+.banner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding: 0 20px 0 20px;
   align-items: center;
-  color: #aaa;
+  background-color: white;
+  height: 50px;
+  border: white 1px solid;
+  border-radius:5px ;
+  position: fixed;
+  z-index: 999;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.banner #qjjl{
+    font-style: "微软雅黑Light";
+    text-align: center;
+    line-height: 30px;
+    width: 170px;
+    height: 30px;
+    background-color: #1BBBBB;
+    color: white;
+    border-radius: 15px;
+}
+.banner #tjqj{
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    background-color: #FFF;
+    color: #1BBBBB;
+    border-radius: 15px;
 }
 
-.usermotto {
-  margin-top: 200px;
+.container {
+    display: flex;
+    flex-direction:column;
+    padding: 60px 0;
+    background-color: #F7F7F9;
+}
+.container #current{
+    display: flex;
+    flex-direction:column;
+    height: 173px;
+    width: 90%;
+    margin: 5px;
+    background-color: white;
+    border: #D3C0C9 1px solid;
+    border-radius: 20px;
+}
+
+.current-text{
+    display: flex;
+    flex-direction:column;
+    padding: 20px 20px 10px 20px ;
+}
+
+.xj-text{
+    display: flex;
+    flex-direction:column;
+    padding: 20px 20px 10px 20px ;
+}
+
+.current-Bimg{
+    
 }
