@@ -12,9 +12,10 @@
             <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj.jpg"></image>
             <text style="padding: 0 0 5px 20px;">事假</text>
             <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 2px 20px;" wx:if="2022-">2022-07-01 10:34{{time}}</text>
+
+            <view bindtap="getTime" style="font-size: 13px; padding: 0 0 2px 20px;">{{Time}}</view>
             <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-07-01 19:34</text>
+            <view bindtap="getTime" style="font-size: 13px; padding: 0 0 2px 20px;">{{overTime}}</view>
         </view>
         <view class="current-Bimg">
             <image src="../../img/footimg.jpg" style="width: 100%;" mode="widthFix" ></image>
@@ -28,9 +29,9 @@
             <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj2.jpg"></image>
             <text style="padding: 0 0 5px 20px;">事假</text>
             <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-29 08:14</text>
+            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-30 08:14</text>
             <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-29 18:34</text>
+            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-30 18:34</text>
         </view>
         <view class="current-Bimg">
             <image src="../../img/footimg2.jpg" style="width: 100%;" mode="widthFix" ></image>
@@ -44,9 +45,9 @@
             <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj2.jpg"></image>
             <text style="padding: 0 0 5px 20px;">事假</text>
             <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-28 11:26</text>
+            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-29 11:26</text>
             <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
-            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-28 19:23</text>
+            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-29 19:23</text>
         </view>
         <view class="current-Bimg">
             <image src="../../img/footimg2.jpg" style="width: 100%;" mode="widthFix" ></image>
@@ -60,6 +61,36 @@
             <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj2.jpg"></image>
             <text style="padding: 0 0 5px 20px;">事假</text>
             <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
+            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-28 12:41</text>
+            <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
+            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-28 20:00</text>
+        </view>
+        <view class="current-Bimg">
+            <image src="../../img/footimg2.jpg" style="width: 100%;" mode="widthFix" ></image>
+        </view>
+    </view>
+    <view id="current" style="border-color:#EEEEEF;"> 
+        <view class="current-text">
+            <image style="position: absolute; margin:-8px 0 0 190px;  height: 115px; width: 115px;" src="../../img/xj.jpg"  />
+            <text style="font-size: 20px; font-weight: bold; padding: 0 0 10px 0;">送 别</text>
+            <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj2.jpg"></image>
+            <text style="padding: 0 0 5px 20px;">事假</text>
+            <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
+            <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-27 11:25</text>
+            <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
+            <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-27 20:00</text>
+        </view>
+        <view class="current-Bimg">
+            <image src="../../img/footimg2.jpg" style="width: 100%;" mode="widthFix" ></image>
+        </view>
+    </view>
+    <view id="current" style="border-color:#EEEEEF;"> 
+        <view class="current-text">
+            <image style="position: absolute; margin:-8px 0 0 190px;  height: 115px; width: 115px;" src="../../img/xj.jpg"  />
+            <text style="font-size: 20px; font-weight: bold; padding: 0 0 10px 0;">吃大餐</text>
+            <image style="position: absolute; margin:45px 0 0 0;  height: 14px; width: 14px;" src="../../img/sj2.jpg"></image>
+            <text style="padding: 0 0 5px 20px;">事假</text>
+            <image style="position: absolute; margin:71px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
             <text style="font-size: 13px; padding: 0 0 2px 20px;">2022-06-26 12:41</text>
             <image style="position: absolute; margin:90px 0 0 0;  height: 14px; width: 14px;" src="../../img/time2.jpg"></image>
             <text style="font-size: 13px; padding: 0 0 0 20px;">2022-06-26 20:00</text>
@@ -68,8 +99,4 @@
             <image src="../../img/footimg2.jpg" style="width: 100%;" mode="widthFix" ></image>
         </view>
     </view>
-    <!-- 建⽴按钮，为按钮绑定函数 -->
-  <button bindtap="getTime">点击获取当前时间</button>
-  <!-- wx:if判断是否存在 -->
-  <text wx:if="{{time}}">{{time}}</text>
 </view>

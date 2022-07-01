@@ -9,8 +9,8 @@
         </view>
         <view style="display: flex; flex-direction:column; width: 90%;margin: 10px 19px;">
             <text style="font-weight: bold; font-size:21px; padding: 5px 0;">请 假 状 态: 假期中</text>
-            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">开 始 时 间: 2022-07-01 10:34</text> 
-            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">结 束 时 间: 2022-07-01 19:34</text> 
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">开 始 时 间: {{Time}}</text> 
+            <text style="font-weight: bold; font-size:21px; padding: 5px 0;">结 束 时 间: {{overTime}}</text> 
             <text style="font-weight: bold; font-size:21px; padding: 5px 0;">是 否 离 校: 是</text> 
             <text style="padding: 5px 0;">销 假 地 点:  呈贡校区</text> 
             <text style="padding: 5px 0;">紧 急 联 系 电 话:  13482958374</text> 

@@ -5,14 +5,19 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        Time:'',
+        overTime:''
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
-    onLoad() {
-
+    onLoad(options) {
+        var that = this
+        that.setData({
+            Time: options.Time,
+            overTime: options.overTime
+        })
     },
 
     /**
